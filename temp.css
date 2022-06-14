@@ -1,0 +1,554 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.grid {
+    grid-template-rows: 10vh;
+    font-family: Montserrat, sans-serif;
+}
+
+.row1 {
+    display: inline-grid;
+    height: 12.5vh;
+    width: 100vw;
+    grid-template-rows: repeat(10vw 10vh);
+    grid-template-columns: 20vw 45vw 30vw; 
+    background-color: black;
+    
+}
+
+.top {
+    padding-top: 1vh;
+    /* padding-left: 10vh; */
+    padding-bottom: 1vh;
+    background-color: #FF0000;
+    font-size: 1.6vh;
+    /* font-family: 'Montserrat', sans-serif; */
+    font-weight: 1000;
+    color: white;
+    
+    
+}
+
+.logo {
+    margin-left: 2.8vw;
+    background-image: url("Boat-Logo_200x_137f5a28-b960-4963-b1fd-e91c60e436a9_200x.webp");
+    background-repeat: no-repeat;
+    background-size: 14.8vh 3.4vw;
+    background-position: 2vh 1.4vw;
+    height: 10vh;
+    width: 15vw;
+    /* background-color: black; */
+    background-color: black;
+    
+}
+
+.links {
+    background-color: black;
+    box-sizing: border-box;
+    height: 12vh;
+    padding-top: 4.6vh;
+    font-family: Montserrat, sans-serif;
+    text-decoration: none;
+    color: red;
+}
+
+.ul1 {
+    box-sizing: border-box;
+    padding-left: 10vw;
+    font-size: 2.3vh;
+    
+}
+
+.li {
+    padding-right: 0.5vw;
+    padding-left: 0.5vw;
+    display: inline-block;
+}
+
+.a {
+    font-size: 2.2vh;
+    color: white;
+}
+
+#li1 {
+    font-weight: 1000;
+}
+
+.main {
+    display: inline-grid;
+    grid-template-rows: 12.5vh 60vh 20vh;
+    background-color: black;
+    
+}
+
+.row2 {
+    display: inline-grid;
+    grid-template-columns: 100vw;
+}
+
+.image {
+    background-image: url("Rockerz-_Catgry_web_d201c6e3-e067-4280-a127-56a2e1b51399.webp");
+    background-repeat: no-repeat;
+    background-size: 100vw 60vh;
+}
+
+.row3 {
+    
+    display: inline-grid;
+    grid-template-rows: 10vh 10vh;
+}
+
+.text1 {
+    color: #808080;
+    color: rgb(128, 128, 128);
+    font-family: Montserrat, sans-serif;
+    font-size: 13px;
+    padding-top: 5vh;
+    padding-left: 3vw;
+}
+
+.text2 {
+    color: white;
+    background-color: black;
+    padding-left: 2vw;
+    font-family: Montserrat, sans-serif;
+    font-weight: 1000;
+}
+
+.row4 {
+    display: inline-grid;
+    background-color: violet;
+}
+
+.products {
+    background-color: black;
+    display: inline-grid;
+    grid-template-columns: 33vw 33vw 33vw;
+    grid-template-rows: 70vh 70vh 70vh;
+}
+
+.product1 {
+    box-sizing: border-box;
+    border-radius: 2vh;
+    background-color: white;
+    margin-left: 3vw;
+    margin-right: 1.5vw;
+    margin-top: 1.5vw;
+}
+
+.upper1 {
+    box-sizing: border-box;
+    border-radius: 2vh;
+    display: inline-grid;
+    grid-template-columns: 50%;
+    grid-template-rows: 90%;
+    height: 50%;
+    width: 100%;
+    background-color: #C4C4C4;
+    background-image: url("product1.webp");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: Montserrat, sans-serif;
+    box-sizing: border-box;
+    /* padding-left: 2%; */
+    padding-top: 3%;
+    font-size: 12.8px;
+    font-weight: 600;
+}
+.upper2{
+    box-sizing: border-box;
+    border-radius: 2vh;
+    display: inline-grid;
+    grid-template-columns: 50%;
+    grid-template-rows: 90%;
+    height: 50%;
+    width: 100%;
+    background-color: #C4C4C4;
+    background-image: url("product2.webp");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: Montserrat, sans-serif;
+    box-sizing: border-box;
+    /* padding-left: 2%; */
+    padding-top: 3%;
+    font-size: 12.8px;
+    font-weight: 600;
+}
+.upper3{
+    box-sizing: border-box;
+    border-radius: 2vh;
+    display: inline-grid;
+    grid-template-columns: 50%;
+    grid-template-rows: 90%;
+    height: 50%;
+    width: 100%;
+    background-color: #C4C4C4;
+    background-image: url("product3.webp");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: Montserrat, sans-serif;
+    box-sizing: border-box;
+    /* padding-left: 2%; */
+    padding-top: 3%;
+    font-size: 12.8px;
+    font-weight: 600;
+}
+.upper4{
+    box-sizing: border-box;
+    border-radius: 2vh;
+    display: inline-grid;
+    grid-template-columns: 50%;
+    grid-template-rows: 90%;
+    height: 50%;
+    width: 100%;
+    background-color: #C4C4C4;
+    background-image: url("product4.webp");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: Montserrat, sans-serif;
+    box-sizing: border-box;
+    /* padding-left: 2%; */
+    padding-top: 3%;
+    font-size: 12.8px;
+    font-weight: 600;
+}
+.upper5{
+    box-sizing: border-box;
+    border-radius: 2vh;
+    display: inline-grid;
+    grid-template-columns: 50%;
+    grid-template-rows: 90%;
+    height: 50%;
+    width: 100%;
+    background-color: #C4C4C4;
+    background-image: url("product5.webp");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: Montserrat, sans-serif;
+    box-sizing: border-box;
+    /* padding-left: 2%; */
+    padding-top: 3%;
+    font-size: 12.8px;
+    font-weight: 600;
+}
+.upper6{
+    box-sizing: border-box;
+    border-radius: 2vh;
+    display: inline-grid;
+    grid-template-columns: 50%;
+    grid-template-rows: 90%;
+    height: 50%;
+    width: 100%;
+    background-color: #C4C4C4;
+    background-image: url("product6.webp");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: Montserrat, sans-serif;
+    box-sizing: border-box;
+    /* padding-left: 2%; */
+    padding-top: 3%;
+    font-size: 12.8px;
+    font-weight: 600;
+}
+.upper7{
+    box-sizing: border-box;
+    border-radius: 2vh;
+    display: inline-grid;
+    grid-template-columns: 50%;
+    grid-template-rows: 90%;
+    height: 50%;
+    width: 100%;
+    background-color:#C4C4C4;
+    background-image: url("product7.webp");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: Montserrat, sans-serif;
+    box-sizing: border-box;
+    /* padding-left: 2%; */
+    padding-top: 3%;
+    font-size: 12.8px;
+    font-weight: 600;
+}
+.upper8{
+    box-sizing: border-box;
+    border-radius: 2vh;
+    display: inline-grid;
+    grid-template-columns: 50%;
+    grid-template-rows: 90%;
+    height: 50%;
+    width: 100%;
+    background-color: #C4C4C4;
+    background-image: url("product8.webp");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: Montserrat, sans-serif;
+    box-sizing: border-box;
+    /* padding-left: 2%; */
+    padding-top: 3%;
+    font-size: 12.8px;
+    font-weight: 600;
+}
+.upper9{
+    box-sizing: border-box;
+    border-radius: 2vh;
+    display: inline-grid;
+    grid-template-columns: 50%;
+    grid-template-rows: 90%;
+    height: 50%;
+    width: 100%;
+    background-color: #C4C4C4       ;
+    background-image: url("product9.webp");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: Montserrat, sans-serif;
+    box-sizing: border-box;
+    /* padding-left: 2%; */
+    padding-top: 3%;
+    font-size: 12.8px;
+    font-weight: 600;
+}
+
+
+.lower1 {
+    padding-top: 1.8vh;
+    padding-left: 1vw;
+    font-family: Montserrat, sans-serif;
+    color: black;
+    font-family: Montserrat, sans-serif;
+    font-size: 12.5px;
+    line-height: 3vh;
+}
+.lower2{
+    padding-top: 1.8vh;
+    padding-left: 1vw;
+    font-family: Montserrat, sans-serif;
+    color: black;
+    font-family: Montserrat, sans-serif;
+    font-size: 12.5px;
+    line-height: 3vh;
+}
+.lower3{
+    padding-top: 1.8vh;
+    padding-left: 1vw;
+    font-family: Montserrat, sans-serif;
+    color: black;
+    font-family: Montserrat, sans-serif;
+    font-size: 12.5px;
+    line-height: 3vh;
+}
+.lower4{
+    padding-top: 1.8vh;
+    padding-left: 1vw;
+    font-family: Montserrat, sans-serif;
+    color: black;
+    font-family: Montserrat, sans-serif;
+    font-size: 12.5px;
+    line-height: 3vh;
+}
+.lower5{
+    padding-top: 1.8vh;
+    padding-left: 1vw;
+    font-family: Montserrat, sans-serif;
+    color: black;
+    font-family: Montserrat, sans-serif;
+    font-size: 12.5px;
+    line-height: 3vh;
+}
+.lower6{
+    padding-top: 1.8vh;
+    padding-left: 1vw;
+    font-family: Montserrat, sans-serif;
+    color: black;
+    font-family: Montserrat, sans-serif;
+    font-size: 12.5px;
+    line-height: 3vh;
+}
+.lower7{
+    padding-top: 1.8vh;
+    padding-left: 1vw;
+    font-family: Montserrat, sans-serif;
+    color: black;
+    font-family: Montserrat, sans-serif;
+    font-size: 12.5px;
+    line-height: 3vh;
+}
+.lower8{
+    padding-top: 1.8vh;
+    padding-left: 1vw;
+    font-family: Montserrat, sans-serif;
+    color: black;
+    font-family: Montserrat, sans-serif;
+    font-size: 12.5px;
+    line-height: 3vh;
+}
+.lower9{
+    padding-top: 1.8vh;
+    padding-left: 1vw;
+    font-family: Montserrat, sans-serif;
+    color: black;
+    font-family: Montserrat, sans-serif;
+    font-size: 12.5px;
+    line-height: 3vh;
+}
+
+.savings1 {
+    
+    background-color: white;
+    color: red;
+    height: 2.2vh;
+    width: 9vw;
+    
+}
+.savings2{
+    background-color: white;
+    color: red;
+    height: 2.2vh;
+    width: 9vw;
+    
+}
+.savings3{
+    background-color: white;
+    color: red;
+    height: 2.2vh;
+    width: 9vw;
+    
+}
+.savings4{
+    background-color: white;
+    color: red;
+    height: 2.2vh;
+    width: 9vw;
+    
+}
+.savings5{
+    background-color: white;
+    color: red;
+    height: 2.2vh;
+    width: 9vw;
+    
+}
+.savings6{
+    background-color: white;
+    color: red;
+    height: 2.2vh;
+    width: 9vw;
+    
+}
+.savings7{
+    background-color: white;
+    color: red;
+    height: 2.2vh;
+    width: 9vw;
+    
+}
+.savings8{
+    background-color: white;
+    color: red;
+    height: 2.2vh;
+    width: 9vw;
+    
+}
+.savings9{
+    background-color: white;
+    color: red;
+    height: 2.2vh;
+    width: 9vw;
+    
+}
+
+.product2 {
+    box-sizing: border-box;
+    border-radius: 2vh;
+    background-color: white;
+    margin-right: 1.5vw;
+    margin-top: 1.5vw;
+}
+
+.product3 {
+    box-sizing: border-box;
+    border-radius: 2vh;
+    background-color: white;
+    margin-right: 1.5vw;
+    margin-top: 1.5vw;
+}
+.product4 {
+    box-sizing: border-box;
+    border-radius: 2vh;
+    background-color: white;
+    margin-left: 3vw;
+    margin-right: 1.5vw;
+    margin-top: 1.5vw;
+}
+.product5 {
+    box-sizing: border-box;
+    border-radius: 2vh;
+    background-color: white;
+    margin-left: 0vw;
+    margin-right: 1.5vw;
+    margin-top: 1.5vw;
+}
+.product6 {
+    box-sizing: border-box;
+    border-radius: 2vh;
+    background-color: white;
+    margin-left: 0vw;
+    margin-right: 1.5vw;
+    margin-top: 1.5vw;
+}
+.product7 {
+    box-sizing: border-box;
+    border-radius: 0vh;
+    background-color: white;
+    margin-left: 3vw;
+    margin-right: 1.5vw;
+    margin-top: 1.5vw;
+}
+.product8 {
+    box-sizing: border-box;
+    border-radius: 0vh;
+    background-color: white;
+    margin-left: 0vw;
+    margin-right: 1.5vw;
+    margin-top: 1.5vw;
+}
+.product9 {
+    box-sizing: border-box;
+    border-radius: 0vh;
+    background-color: white;
+    margin-left: 0vw;
+    margin-right: 1.5vw;
+    margin-top: 1.5vw;
+}
+
+.price {
+    color: red;
+}
+#cart{
+    font-family: Montserrat, sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 3vh;
+}
+#a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 7vh;
+    width: 20vw;
+    text-decoration: none;
+    color:white;
+}
